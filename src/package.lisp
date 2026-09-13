@@ -5,6 +5,14 @@
            #:use-recursive-character-chunker
            #:chunker-size
            #:chunker-overlap
-           #:chunker-separators))
+           #:chunker-separators
+
+           #:block-tree-chunker
+           #:block-tree-splitter
+           #:make-block-tree-chunker
+           #:make-block-tree-splitter
+           #:use-block-tree-chunker
+           #:chunk-extracted-document
+           #:chunker-store))
 
 (in-package #:rag-backend-text)
